@@ -1,0 +1,209 @@
+﻿<!doctype html>
+<html lang="zh-cn">
+<head>
+	<title>最专业的p2p金融信贷导航网站</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body class="body">
+	<h1 class="text-center">导航</h1>
+	<script language=javascript>
+	function gowhere1(formname)
+	{
+		var url;
+		if (formname.myselectvalue.value == "0")
+		{
+		  url = "http://www.baidu.com/baidu";
+		  document.search_form1.tn.value = "baidu";
+		  formname.method = "get";
+		}
+		if (formname.myselectvalue.value == "1")
+		{
+		  url = "http://mp3.baidu.com/m";
+		  document.search_form1.tn.value = "baidump3";
+		  document.search_form1.ct.value = "134217728";
+		  document.search_form1.lm.value = "-1";
+		}
+		if (formname.myselectvalue.value == "4")
+		{
+		  document.search_form1.tn.value = "news";
+		  document.search_form1.cl.value = "2";
+		  document.search_form1.rn.value = "20";
+		  url = "http://news.baidu.com/ns";
+		}
+		if (formname.myselectvalue.value == "5")
+		{
+		  document.search_form1.tn.value = "baiduiamge";
+		  document.search_form1.ct.value = "201326592";
+		  document.search_form1.cl.value = "2";
+		  document.search_form1.lm.value = "-1";
+		  url = "http://image.baidu.com/i";
+		}
+		if (formname.myselectvalue.value == "6")
+		{
+		  url = "http://post.baidu.com/f";
+		  document.search_form1.tn.value = "baidupostsearch";
+		  document.search_form1.ct.value = "352321536";
+		  document.search_form1.rn.value = "10";
+		  document.search_form1.lm.value = "65536";
+		}
+	  formname.action = url;
+		return true;
+	}
+	</script>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-10 col-sm-7 col-md-6">
+				<a href="#">
+					<img src="images/test1.png" />
+				</a>
+			</div>
+			<div class="col-xs-10 col-sm-7 col-md-5">
+				<form name="search_form1" target="_blank" onsubmit="return gowhere1(this)">
+					<table width="100%" height="60">
+						<input name=myselectvalue type=hidden value=0>
+						<input name=tn type=hidden>
+						<input name=ct type=hidden>
+						<input name=lm type=hidden>
+						<input name=cl type=hidden>
+						<input name=rn type=hidden>
+						<tr>
+							<td valign="top" width="92%">
+								<input name=myselect onclick=javascript:this.form.myselectvalue.value=4; type=radio value=0>
+								<font color=#0000cc style="font-size: 12px">新闻</font>
+								<input checked name=myselect onclick=javascript:this.form.myselectvalue.value=0; type=radio value=0>
+								<span class=f12><font color=#0000cc style="font-size: 12px">网页</font></span>
+								<input name=myselect onclick=javascript:this.form.myselectvalue.value=1; type=radio value=1>
+								<span class=f12><font color=#0000cc style="font-size: 12px">音乐</font></span>
+								<input name=myselect onclick=javascript:this.form.myselectvalue.value=6; type=radio value=0>
+								<font color=#0000cc style="font-size: 12px">贴吧</font>
+								<input name=myselect onclick=javascript:this.form.myselectvalue.value=5; type=radio value=0 />
+								<font color=#0000cc style="font-size: 12px">图片</font>
+								<table align="right" width="100%">
+									<tbody>
+										<tr>
+											<td>
+												<input id="word" name="word" size="25">
+												<input type="submit" value="百度搜索"> 
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<h3>导航分类一</h3>
+		<div class="row">
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.baidu.com">百度</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.google.com">google</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.sina.com">新浪</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.qq.com">腾讯</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.taobao.com">淘宝</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.sohu.com">搜狐</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.163.com">网易</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.tmall.com">天猫</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.ifeng.com">凤凰网</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.jd.com">京东</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.iqiyi.com">爱奇艺高清</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.autohome.com.cn">汽车之家</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.qunar.com">去哪儿</a>
+			</div>
+		</div>
+		<h3>导航分类二</h3>
+		<div class="row">
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.baidu.com">
+					<img src="images/test1.png" width="100%" />
+				</a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.google.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.sina.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.qq.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.taobao.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.sohu.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.163.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.tmall.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.ifeng.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.jd.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.iqiyi.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.autohome.com.cn"><img src="images/test1.png" width="100%" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.qunar.com"><img src="images/test1.png" width="100%" /></a>
+			</div>
+		</div>
+		<h3>友情链接</h3>
+		<div class="row">
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a href="http://www.frostars.com">web前端</a>
+			</div>
+		</div>
+		<h3>商务合作(请点击以下链接联系管理员)</h3>
+		<div class="row">
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1416527465&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1416527465:10" alt="有事点这里" /></a>
+			</div>
+			<div class="col-xs-4 col-sm-3 col-md-2">
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1416527465&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:1416527465:10" alt="有事点这里" /></a>
+			</div>
+			<div class="col-xs-6 col-sm-3 col-md-2">
+				电话：<a href="tel://13951855380">13951855380</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
